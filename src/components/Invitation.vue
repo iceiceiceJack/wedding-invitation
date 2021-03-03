@@ -6,12 +6,12 @@
           <div class="content-inside">
             <img class="content-inside-photo" src="../images/photo.jpg">
             <p>我们结婚啦！</p>
-            <p><b>Jun & undefined</b></p>
-            <p>时间：invalid date value</p>
-            <p>地点：<b>location can not be found</b></p>
+            <p><b>张 凯 & 赵芮瑄</b></p>
+            <p>时间：中午十一点二十八分</p>
+            <p>地点：<b>宁波北仑影秀城丽筠酒店一楼环球厅</b></p>
             <div class="content-inside-bless">
               <input
-                placeholder="写下你的祝福" 
+                placeholder="写下你的祝福"
                 @keyup.enter="sendBarrage"
                 @focus="isFocused = true"
                 @blur="isFocused = false, hasEntered = false"
